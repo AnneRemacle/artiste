@@ -1,0 +1,32 @@
+section{
+	width: 50em;
+	margin: 3em auto 10em;
+    background: rgba(0,0,0,0.4);
+    padding: 1em;
+}
+ul{
+	width: 45em;
+	margin: 0 auto;
+}
+section a{
+	display: inline-block;
+	width: 25%;
+	background:#313D3B;
+	padding: 1em 0.8em;
+	margin: 0.5em;
+	border:3px solid #C3BF64;
+	color: #C3BF64;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+section a:hover{
+	background:  black;
+	color:white;
+	border: 3px solid white;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}

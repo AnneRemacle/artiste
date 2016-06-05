@@ -1,0 +1,25 @@
+article ul{
+	font-size: 1.3em;
+}
+ul li span{
+	color:#945733;
+}
+h4{
+	font-size: 1.1em;
+	color:#945733;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+.transports p:nth-child(2){
+	margin-bottom: 01.2em;
+}
+.transports p span{
+	font-size: 1.2em;
+	margin-left: 1em;
+}
+a{
+	color: #dbd8a2;	
+}
+a:hover{
+	color:#C3BF64;
+}

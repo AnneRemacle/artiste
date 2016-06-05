@@ -1,0 +1,168 @@
+/* ********************/
+/* Reset de Meyer*/
+/* ********************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---------> \Reset de Meyer*/
+
+
+/* ********************/
+/*Styles communs*/
+/* ********************/
+
+html{
+	font: normal 16px/1.5 Georgia,Times,"Times New Roman",serif;
+	color:#e5e5e5;
+	background: #000;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	background: url(../img/logo.png) center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	width: 210px;
+	height: 140px;
+	text-indent: -9999px;
+	float:left;
+	margin:1em;
+}
+header{
+	overflow:hidden;
+	padding-bottom: 4em;
+	background: linear-gradient(to top,#000,rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0)), url(../img/wallpaper-church.png) center no-repeat;
+	height: 10em;
+	-webkit-background-size: contain;
+	background-size: cover;
+}
+header nav{
+	float:right;
+	padding-right: 3em;
+	margin-top: 3em;
+}
+header nav h2, footer h2{
+	display: none;
+}
+header nav a{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	margin: 4em 0.8 1em;
+	padding: 1em;
+	background: rgba(0,0,0,0.4);
+	color:white;
+	border: 3px solid white;
+}
+header nav a:hover, header nav a:focus{
+	color:#C3BF64;
+	border-color:#C3BF64;
+	background: #313d3b;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}
+/* ---------> \Header*/
+body{
+	background: url(../img/cross.png) center  no-repeat; /*url(../img/background.jpg) no-repeat*/
+	-webkit-background-size: contain;
+	background-size: contain;
+
+}
+h2{
+	font-size: 1.8em;
+	text-transform: uppercase;
+	padding-bottom: 2em;
+	color:#C3BF64;
+}
+h3{
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 1em;
+	color: #ECE6C2;
+}
+
+/* ********************/
+/*Footer*/
+/* ********************/
+footer{
+	width: 60em;
+	margin: 5em auto;
+}
+footer ul{
+	width: 50em;
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+}
+footer li{
+	display: table-cell;
+	width: 20%;
+	text-align: center;
+}
+footer a{
+	font-size: 2.5em;
+	color: rgba(255,255,255,0.7);
+}
+footer a:hover{
+	color:#C3BF64;
+}
+footer a span{
+	display: none;
+}
+/* ---------> \Footer*/
+
+/* ********************/
+/*Contenu*/
+/* ********************/
+
+article{
+	width: 50em;
+	margin: 3em auto;
+}
+article p{
+	margin-bottom: 01em;
+}
+
+/* ---------> \Contenu*/
